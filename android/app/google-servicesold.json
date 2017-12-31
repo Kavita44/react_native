@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "663769437064",
+    "project_id": "waterdisposalmobileapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663769437064:android:279ae67d33d1df7e",
+        "android_client_info": {
+          "package_name": "com.waterdisposal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663769437064-t8oaifa1gfq6f0n2n3ii2q0385ian3rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCACGrKOFljjTEOymnIMvRFdmr0Yn8YTOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

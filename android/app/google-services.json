@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461880636872",
+    "project_id": "firebase-waterdisposalmobileap"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461880636872:android:279ae67d33d1df7e",
+        "android_client_info": {
+          "package_name": "com.waterdisposal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461880636872-gdpa469v1kfgg7lc2eq0qq8tden3ih6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAxjpOF-Ic6054rXEv68Z0Nilq8hUg1Sc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* waterDisposalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* waterDisposalTests.m */; };
+		0524A016EA8141038F240359 /* GOTHAM-LIGHTITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FA777616BBDB4CD8AB1B267C /* GOTHAM-LIGHTITALIC.TTF */; };
+		080B9BA658C943E99DC6B927 /* GOTHAM-ULTRAITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9E68552A1A4F4FB5BEB93BD5 /* GOTHAM-ULTRAITALIC.TTF */; };
+		1058C1A082CE4C52833A8C1A /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D20DF9386CAD4DC18FE09A8F /* Gotham-BookItalic.otf */; };
+		12BE359A17314450A8D06137 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97D2526A3B3945E2B37BB5AA /* Gotham-Light.otf */; };
+		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1587120609A1414CA35E5ACA /* Gotham-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB9D6239E2E40269CDCB7AE /* Gotham-Ultra.otf */; };
+		161C8E385D9744D6B1FE24CB /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EC32E1DB01E4CC88C42FB1B /* Gotham-Book.otf */; };
+		1D5D25906B574E4CAC43EC65 /* GothamNarrow-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C60FBAAF59C486C9141EB09 /* GothamNarrow-Ultra.otf */; };
+		1FC564DDC042A271BB89EDD2 /* libPods-waterDisposalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA80F49FC302CB75375110 /* libPods-waterDisposalTests.a */; };
+		27F75328BD534777A421C919 /* GothamNarrow-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4EABA09F4CF427682ECDE9D /* GothamNarrow-UltraItalic.otf */; };
+		28CFFA8E69D444A789AEF95F /* GothamNarrow-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 277293E640434163ABFC71D7 /* GothamNarrow-Light.otf */; };
+		2C86F792819141B39B4B6405 /* GothamNarrow-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC1948ECEF2F474A97F38AE5 /* GothamNarrow-BlackItalic.otf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
+		2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */; };
+		2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */; };
+		2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */; };
+		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
+		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
+		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* waterDisposalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* waterDisposalTests.m */; };
+		318E030011AF4176BCDEE1EB /* gotham-rounded-bold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67A8638BFC97444EA5BFC5F8 /* gotham-rounded-bold-italic.otf */; };
+		34930498446443BF9F291296 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E147F4A53CB04E33BE298B77 /* Gotham-Thin.otf */; };
+		387B1BC572EB448C95BDD52F /* GothamNarrow-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6D63F975A5154C239C472886 /* GothamNarrow-Book.otf */; };
+		3980449F30C9477881F325D3 /* GothamNarrow-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD5E32DB8AC445F7ABADA413 /* GothamNarrow-LightItalic.otf */; };
+		3B9323BBF1B74D6E871FDBD1 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9AF7BD08A74BC1BF245956 /* libRNImagePicker.a */; };
+		3C0F975F5F9A4F0AAD84F15C /* GOTHAM-THINITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A5C9FAB4F69E4588A3705C77 /* GOTHAM-THINITALIC.TTF */; };
+		3CCE2AB3E46943EA8609282C /* GOTHAM-XLIGHTITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = D40B70A22F8D42AE89C0D2D7 /* GOTHAM-XLIGHTITALIC.TTF */; };
+		4094549D74094CEF86092BBD /* gotham-extra-narrow-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF43A1161AA34A2AB392CAEA /* gotham-extra-narrow-bold.otf */; };
+		48FA6C49B2EC4986A9692917 /* libRNFIRMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B17BA61B94F4D349D1208F9 /* libRNFIRMessaging.a */; };
+		4DC27D6F586146B686ED02AE /* gotham-rounded-book-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A243EC3A28F415A84A55BA5 /* gotham-rounded-book-italic.otf */; };
+		59F05087EBB5480E8D895145 /* GOTHAM-ULTRA.TTF in Resources */ = {isa = PBXBuildFile; fileRef = C7BD4F03D5A245D5BF00C7BF /* GOTHAM-ULTRA.TTF */; };
+		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		67330FE764A24ECFAFE106DB /* gotham-rounded-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0C28571C54767A4323117 /* gotham-rounded-bold.otf */; };
+		73E7C1B018AD454E91E60C91 /* Gotham-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4804D04AC4814E9D9A07FF3F /* Gotham-MediumItalic.otf */; };
+		775483053C1E4A88BB21749D /* GothamNarrow-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D410177218B0452DBBF80817 /* GothamNarrow-MediumItalic.otf */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83CEF5C028F048BBB08529B4 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D91FF2619AE54C43A5596D56 /* Gotham-UltraItalic.otf */; };
+		840B15E10CB326F51A459AA2 /* libPods-waterDisposal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7567DABDA7615C3ED145A625 /* libPods-waterDisposal.a */; };
+		8929D38326B6413E9F78D980 /* GOTHAM-BLACKITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8E2AA76B1F28421C8760C9F9 /* GOTHAM-BLACKITALIC.TTF */; };
+		8979E9FAA7BD488A96F8B5C7 /* GothamNarrow-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78EC722C493344A7A341F7CC /* GothamNarrow-Black.otf */; };
+		8C2772C5425E4805AE9EDB13 /* GOTHAM-XLIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 53F4E36E89CF48ADA9A9E00F /* GOTHAM-XLIGHT.TTF */; };
+		91E6FA3ABE75441AA3CCF43B /* gotham-rounded-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91E31A25525E459481D74108 /* gotham-rounded-light.otf */; };
+		92A93D759AA44F5481D16734 /* Gotham Book Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09335AC54D8F4F8C970C9D2D /* Gotham Book Italic.otf */; };
+		95BBB30F721B4FE0A146B06C /* gotham-extra-narrow-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D666481C66641448E193BAD /* gotham-extra-narrow-light.otf */; };
+		96826CC433924DE998D564E9 /* GOTHAM-MEDIUMITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0CC54FDF98CA40B68BD74610 /* GOTHAM-MEDIUMITALIC.TTF */; };
+		9994F2DA3E194A778C3EE841 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 411C81C71DAE4027BD67E757 /* Gotham-Medium.otf */; };
+		9CDF5645ED54443D8F93AAB3 /* gotham-rounded-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BC3DBC3507304B26A1C84197 /* gotham-rounded-medium.otf */; };
+		9D653023D7A54878AD287CEA /* gotham-extra-narrow-bold-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE9472B5BA84499ABBFA913F /* gotham-extra-narrow-bold-italic.otf */; };
+		9EA23421D9E64274860754D0 /* gotham-extra-narrow-light-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF8CA5281E55402C8E00F042 /* gotham-extra-narrow-light-italic.otf */; };
+		A0308972169740AFB9B5E759 /* GOTHAM-LIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 84EF16B336334372B94F9CF4 /* GOTHAM-LIGHT.TTF */; };
+		A13AF2D135F848B8A9AD0090 /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA03EDAF59B41B6BF99AF43 /* Gotham-BoldItalic.otf */; };
+		A23258975BBF4780A8EF1E40 /* Gotham-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FB9DFD96F71F4A6299949F4B /* Gotham-ExtraLight.otf */; };
+		A4E2F9D88CE94EBEADD8066F /* GOTHAM-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A9DF055848044EF7BF3D23F9 /* GOTHAM-BOLD.TTF */; };
+		A7623A7998B94E84B9F0F466 /* GothamNarrow-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E96077DDE794447839FB0E0 /* GothamNarrow-XLight.otf */; };
+		AB16682815BF48B99631C0A7 /* Gotham-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 958B7F6CF34447E9BE0D7E9B /* Gotham-ExtraLightItalic.otf */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AF79D852B86D40DFAA5EA19B /* gotham-extra-narrow-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81A328232F3F4568B45BD95E /* gotham-extra-narrow-book.otf */; };
+		B32F2AA89EA04DE7941B25E4 /* gotham-rounded-light-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7B5CD64A0FF4797BEE96400 /* gotham-rounded-light-italic.otf */; };
+		B64314121FD048700069AB75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64314111FD048700069AB75 /* GoogleService-Info.plist */; };
+		B68522EEF8A5FDE5BDED060B /* libPods-waterDisposal-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 245D4D4346BB27DF202A7515 /* libPods-waterDisposal-tvOSTests.a */; };
+		BAC18C8D6A7542A2947B21C7 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2119C12A5A2481889F40E1E /* Gotham-ThinItalic.otf */; };
+		BDDB1039F8A14A0F82F9A14E /* Gotham-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E834620747D493792BDDD4E /* Gotham-LightItalic.otf */; };
+		C119D7E460E6489A980C78A7 /* GothamNarrow-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = D597CC8D238F4595BF94D013 /* GothamNarrow-Thin.otf */; };
+		C2F3604F4B644658A9CA6FF2 /* GothamNarrow-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54915C8243BB43A396834EB2 /* GothamNarrow-Medium.otf */; };
+		C3EB19B83BD442BD8F9122DB /* GOTHAM-MEDIUM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = ABFF663E849D4F26A05747BF /* GOTHAM-MEDIUM.TTF */; };
+		C7C7A130DC9BDA9E69A4759E /* libPods-waterDisposal-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05ECDF7A0955C89866519224 /* libPods-waterDisposal-tvOS.a */; };
+		D083FBC7EB79423E9CDCE18C /* GOTHAM-BLACK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7FE87BEAACBD466EA84620A1 /* GOTHAM-BLACK.TTF */; };
+		D4FA4EBDBE87462F9FEAB8DD /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3094C53E889D49E392EB9721 /* libRCTCamera.a */; };
+		D8021F7EA14F442C8552B295 /* gotham-extra-narrow-book-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99BA944E7A904BCA992619D8 /* gotham-extra-narrow-book-italic.otf */; };
+		DBA287CBB75B4E6BB96976AC /* GothamNarrow-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9263109484194B4C8AE1178A /* GothamNarrow-BookItalic.otf */; };
+		E1B7B249EA2844FEBD85A23E /* gotham-extra-narrow-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C39F7F727174FC7B78B507B /* gotham-extra-narrow-medium.otf */; };
+		E366B8219E1F4B9AAF6C4966 /* gotham-rounded-book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 225EBBEB248A449282AEEB0C /* gotham-rounded-book.otf */; };
+		E89B10D61AC44C98A90F487B /* GOTHAM-BOLDITALIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FD3B99D5ED6948F9967D3F5E /* GOTHAM-BOLDITALIC.TTF */; };
+		ED2E678B0E01492691BC33A4 /* libReactNativeFingerprintScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD679BA10DC4CF7B9443293 /* libReactNativeFingerprintScanner.a */; };
+		EE05EFC099DF4F09BBED1FAE /* GothamNarrow-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D70AB2090F4562941096DE /* GothamNarrow-XLightItalic.otf */; };
+		EF594B8303AB4B1B8572FEB6 /* gotham-extra-narrow-medium-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AEC8440D329D44CF9862C2C4 /* gotham-extra-narrow-medium-italic.otf */; };
+		F5EA79E6C5F44A71B6A4C770 /* gotham-rounded-medium-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E41DBEF1E94A4762B6B6B7A8 /* gotham-rounded-medium-italic.otf */; };
+		F6E3278CFD4A4CFD9C4AF18F /* GothamNarrow-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0C7057D1C3948AA886026FF /* GothamNarrow-ThinItalic.otf */; };
+		FEC16AEB33BE4737B4AA1CA2 /* GOTHAM-THIN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F858A76A76104D6C91A018CD /* GOTHAM-THIN.TTF */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = waterDisposal;
+		};
+		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		139FDEF31B06529B00C62182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		146834031AC3E56700842450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "waterDisposal-tvOS";
+		};
+		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A283A1D9B042B00D4039D;
+			remoteInfo = "RCTImage-tvOS";
+		};
+		3DAD3E871DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28471D9B043800D4039D;
+			remoteInfo = "RCTLinking-tvOS";
+		};
+		3DAD3E8B1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		3DAD3E8F1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28611D9B046600D4039D;
+			remoteInfo = "RCTSettings-tvOS";
+		};
+		3DAD3E931DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
+			remoteInfo = "RCTText-tvOS";
+		};
+		3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+		3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		3DAD3EA41DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		3DAD3EA61DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		3DAD3EA81DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
+		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
+			remoteInfo = RCTBlob;
+		};
+		B60097601FD123FE00213DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90BB6EB4ABFE4F2CACCC500A /* RCTCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RCTCamera;
+		};
+		B6AD286B1FCD2CE300CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADD01A681E09402E00F6D226;
+			remoteInfo = "RCTBlob-tvOS";
+		};
+		B6AD287F1FCD2CE300CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF769CC82984E04B166DC7B /* ReactNativeFingerprintScanner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = ReactNativeFingerprintScanner;
+		};
+		B6AD28B11FCEE53700CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		B6AD28B31FCEE53700CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		B6AD28B51FCEE53700CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		B6AD28B71FCEE53700CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		B6AD28BB1FCEE53700CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7F7C8C963141D79EB0D047 /* RNImagePicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
+			remoteInfo = RNImagePicker;
+		};
+		B6AD28F01FCEED7600CF4CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B17CC592744E9AB13B4ACA /* RNFIRMessaging.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFIRMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* waterDisposalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterDisposalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* waterDisposalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = waterDisposalTests.m; sourceTree = "<group>"; };
+		05ECDF7A0955C89866519224 /* libPods-waterDisposal-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-waterDisposal-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09335AC54D8F4F8C970C9D2D /* Gotham Book Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham Book Italic.otf"; path = "../assets/fonts/Gotham Book Italic.otf"; sourceTree = "<group>"; };
+		0A243EC3A28F415A84A55BA5 /* gotham-rounded-book-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-book-italic.otf"; path = "../assets/fonts/gotham-rounded-book-italic.otf"; sourceTree = "<group>"; };
+		0CC54FDF98CA40B68BD74610 /* GOTHAM-MEDIUMITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-MEDIUMITALIC.TTF"; path = "../assets/fonts/GOTHAM-MEDIUMITALIC.TTF"; sourceTree = "<group>"; };
+		0E834620747D493792BDDD4E /* Gotham-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-LightItalic.otf"; path = "../assets/fonts/Gotham-LightItalic.otf"; sourceTree = "<group>"; };
+		0EC32E1DB01E4CC88C42FB1B /* Gotham-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Book.otf"; path = "../assets/fonts/Gotham-Book.otf"; sourceTree = "<group>"; };
+		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* waterDisposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterDisposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = waterDisposal/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = waterDisposal/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = waterDisposal/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = waterDisposal/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = waterDisposal/main.m; sourceTree = "<group>"; };
+		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		21E9373970BEA9D2D001993E /* Pods-waterDisposal-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal-tvOSTests/Pods-waterDisposal-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		225EBBEB248A449282AEEB0C /* gotham-rounded-book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-book.otf"; path = "../assets/fonts/gotham-rounded-book.otf"; sourceTree = "<group>"; };
+		245D4D4346BB27DF202A7515 /* libPods-waterDisposal-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-waterDisposal-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277293E640434163ABFC71D7 /* GothamNarrow-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Light.otf"; path = "../assets/fonts/GothamNarrow-Light.otf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* waterDisposal-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waterDisposal-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* waterDisposal-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterDisposal-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3060FCC65BF5224499A1F561 /* Pods-waterDisposal-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal-tvOS/Pods-waterDisposal-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3094C53E889D49E392EB9721 /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
+		35CA80F49FC302CB75375110 /* libPods-waterDisposalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-waterDisposalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B17BA61B94F4D349D1208F9 /* libRNFIRMessaging.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFIRMessaging.a; sourceTree = "<group>"; };
+		3C39F7F727174FC7B78B507B /* gotham-extra-narrow-medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-medium.otf"; path = "../assets/fonts/gotham-extra-narrow-medium.otf"; sourceTree = "<group>"; };
+		3DBC0DDD80FD6F59087D040F /* Pods-waterDisposalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposalTests/Pods-waterDisposalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		411C81C71DAE4027BD67E757 /* Gotham-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Medium.otf"; path = "../assets/fonts/Gotham-Medium.otf"; sourceTree = "<group>"; };
+		4804D04AC4814E9D9A07FF3F /* Gotham-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-MediumItalic.otf"; path = "../assets/fonts/Gotham-MediumItalic.otf"; sourceTree = "<group>"; };
+		48D70AB2090F4562941096DE /* GothamNarrow-XLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-XLightItalic.otf"; path = "../assets/fonts/GothamNarrow-XLightItalic.otf"; sourceTree = "<group>"; };
+		4D666481C66641448E193BAD /* gotham-extra-narrow-light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-light.otf"; path = "../assets/fonts/gotham-extra-narrow-light.otf"; sourceTree = "<group>"; };
+		53F4E36E89CF48ADA9A9E00F /* GOTHAM-XLIGHT.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-XLIGHT.TTF"; path = "../assets/fonts/GOTHAM-XLIGHT.TTF"; sourceTree = "<group>"; };
+		54915C8243BB43A396834EB2 /* GothamNarrow-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Medium.otf"; path = "../assets/fonts/GothamNarrow-Medium.otf"; sourceTree = "<group>"; };
+		5D6914BB8289202B4414D09D /* Pods-waterDisposal-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal-tvOSTests/Pods-waterDisposal-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E9054D7439179683B2B0F39 /* Pods-waterDisposal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal/Pods-waterDisposal.debug.xcconfig"; sourceTree = "<group>"; };
+		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		64B17CC592744E9AB13B4ACA /* RNFIRMessaging.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFIRMessaging.xcodeproj; path = "../node_modules/react-native-fcm/ios/RNFIRMessaging.xcodeproj"; sourceTree = "<group>"; };
+		67A8638BFC97444EA5BFC5F8 /* gotham-rounded-bold-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-bold-italic.otf"; path = "../assets/fonts/gotham-rounded-bold-italic.otf"; sourceTree = "<group>"; };
+		6D63F975A5154C239C472886 /* GothamNarrow-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Book.otf"; path = "../assets/fonts/GothamNarrow-Book.otf"; sourceTree = "<group>"; };
+		7567DABDA7615C3ED145A625 /* libPods-waterDisposal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-waterDisposal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		78EC722C493344A7A341F7CC /* GothamNarrow-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Black.otf"; path = "../assets/fonts/GothamNarrow-Black.otf"; sourceTree = "<group>"; };
+		7DA03EDAF59B41B6BF99AF43 /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-BoldItalic.otf"; path = "../assets/fonts/Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
+		7DD679BA10DC4CF7B9443293 /* libReactNativeFingerprintScanner.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeFingerprintScanner.a; sourceTree = "<group>"; };
+		7FE87BEAACBD466EA84620A1 /* GOTHAM-BLACK.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-BLACK.TTF"; path = "../assets/fonts/GOTHAM-BLACK.TTF"; sourceTree = "<group>"; };
+		81A328232F3F4568B45BD95E /* gotham-extra-narrow-book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-book.otf"; path = "../assets/fonts/gotham-extra-narrow-book.otf"; sourceTree = "<group>"; };
+		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		84EF16B336334372B94F9CF4 /* GOTHAM-LIGHT.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-LIGHT.TTF"; path = "../assets/fonts/GOTHAM-LIGHT.TTF"; sourceTree = "<group>"; };
+		8C60FBAAF59C486C9141EB09 /* GothamNarrow-Ultra.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Ultra.otf"; path = "../assets/fonts/GothamNarrow-Ultra.otf"; sourceTree = "<group>"; };
+		8E2AA76B1F28421C8760C9F9 /* GOTHAM-BLACKITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-BLACKITALIC.TTF"; path = "../assets/fonts/GOTHAM-BLACKITALIC.TTF"; sourceTree = "<group>"; };
+		8EB9D6239E2E40269CDCB7AE /* Gotham-Ultra.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Ultra.otf"; path = "../assets/fonts/Gotham-Ultra.otf"; sourceTree = "<group>"; };
+		90BB6EB4ABFE4F2CACCC500A /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		91E31A25525E459481D74108 /* gotham-rounded-light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-light.otf"; path = "../assets/fonts/gotham-rounded-light.otf"; sourceTree = "<group>"; };
+		9263109484194B4C8AE1178A /* GothamNarrow-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-BookItalic.otf"; path = "../assets/fonts/GothamNarrow-BookItalic.otf"; sourceTree = "<group>"; };
+		958B7F6CF34447E9BE0D7E9B /* Gotham-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-ExtraLightItalic.otf"; path = "../assets/fonts/Gotham-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		97D2526A3B3945E2B37BB5AA /* Gotham-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Light.otf"; path = "../assets/fonts/Gotham-Light.otf"; sourceTree = "<group>"; };
+		99BA944E7A904BCA992619D8 /* gotham-extra-narrow-book-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-book-italic.otf"; path = "../assets/fonts/gotham-extra-narrow-book-italic.otf"; sourceTree = "<group>"; };
+		9E68552A1A4F4FB5BEB93BD5 /* GOTHAM-ULTRAITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-ULTRAITALIC.TTF"; path = "../assets/fonts/GOTHAM-ULTRAITALIC.TTF"; sourceTree = "<group>"; };
+		9E96077DDE794447839FB0E0 /* GothamNarrow-XLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-XLight.otf"; path = "../assets/fonts/GothamNarrow-XLight.otf"; sourceTree = "<group>"; };
+		9FD0C28571C54767A4323117 /* gotham-rounded-bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-bold.otf"; path = "../assets/fonts/gotham-rounded-bold.otf"; sourceTree = "<group>"; };
+		A0C7057D1C3948AA886026FF /* GothamNarrow-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-ThinItalic.otf"; path = "../assets/fonts/GothamNarrow-ThinItalic.otf"; sourceTree = "<group>"; };
+		A2119C12A5A2481889F40E1E /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-ThinItalic.otf"; path = "../assets/fonts/Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		A5C9FAB4F69E4588A3705C77 /* GOTHAM-THINITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-THINITALIC.TTF"; path = "../assets/fonts/GOTHAM-THINITALIC.TTF"; sourceTree = "<group>"; };
+		A9DF055848044EF7BF3D23F9 /* GOTHAM-BOLD.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-BOLD.TTF"; path = "../assets/fonts/GOTHAM-BOLD.TTF"; sourceTree = "<group>"; };
+		AB7F7C8C963141D79EB0D047 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
+		ABFF663E849D4F26A05747BF /* GOTHAM-MEDIUM.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-MEDIUM.TTF"; path = "../assets/fonts/GOTHAM-MEDIUM.TTF"; sourceTree = "<group>"; };
+		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		AEC8440D329D44CF9862C2C4 /* gotham-extra-narrow-medium-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-medium-italic.otf"; path = "../assets/fonts/gotham-extra-narrow-medium-italic.otf"; sourceTree = "<group>"; };
+		AEDE3FD78C0EB144C7E886B6 /* Pods-waterDisposal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal.release.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal/Pods-waterDisposal.release.xcconfig"; sourceTree = "<group>"; };
+		B64314111FD048700069AB75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "waterDisposal/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6AD29261FCEFD4200CF4CEA /* waterDisposal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = waterDisposal.entitlements; path = waterDisposal/waterDisposal.entitlements; sourceTree = "<group>"; };
+		BC3DBC3507304B26A1C84197 /* gotham-rounded-medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-medium.otf"; path = "../assets/fonts/gotham-rounded-medium.otf"; sourceTree = "<group>"; };
+		BD5E32DB8AC445F7ABADA413 /* GothamNarrow-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-LightItalic.otf"; path = "../assets/fonts/GothamNarrow-LightItalic.otf"; sourceTree = "<group>"; };
+		BFF769CC82984E04B166DC7B /* ReactNativeFingerprintScanner.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeFingerprintScanner.xcodeproj; path = "../node_modules/react-native-fingerprint-scanner/ios/ReactNativeFingerprintScanner.xcodeproj"; sourceTree = "<group>"; };
+		C7BD4F03D5A245D5BF00C7BF /* GOTHAM-ULTRA.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-ULTRA.TTF"; path = "../assets/fonts/GOTHAM-ULTRA.TTF"; sourceTree = "<group>"; };
+		CC1948ECEF2F474A97F38AE5 /* GothamNarrow-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-BlackItalic.otf"; path = "../assets/fonts/GothamNarrow-BlackItalic.otf"; sourceTree = "<group>"; };
+		D20DF9386CAD4DC18FE09A8F /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-BookItalic.otf"; path = "../assets/fonts/Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		D40B70A22F8D42AE89C0D2D7 /* GOTHAM-XLIGHTITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-XLIGHTITALIC.TTF"; path = "../assets/fonts/GOTHAM-XLIGHTITALIC.TTF"; sourceTree = "<group>"; };
+		D410177218B0452DBBF80817 /* GothamNarrow-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-MediumItalic.otf"; path = "../assets/fonts/GothamNarrow-MediumItalic.otf"; sourceTree = "<group>"; };
+		D4EABA09F4CF427682ECDE9D /* GothamNarrow-UltraItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-UltraItalic.otf"; path = "../assets/fonts/GothamNarrow-UltraItalic.otf"; sourceTree = "<group>"; };
+		D597CC8D238F4595BF94D013 /* GothamNarrow-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GothamNarrow-Thin.otf"; path = "../assets/fonts/GothamNarrow-Thin.otf"; sourceTree = "<group>"; };
+		D91FF2619AE54C43A5596D56 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-UltraItalic.otf"; path = "../assets/fonts/Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		DC9AF7BD08A74BC1BF245956 /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImagePicker.a; sourceTree = "<group>"; };
+		DE9472B5BA84499ABBFA913F /* gotham-extra-narrow-bold-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-bold-italic.otf"; path = "../assets/fonts/gotham-extra-narrow-bold-italic.otf"; sourceTree = "<group>"; };
+		E147F4A53CB04E33BE298B77 /* Gotham-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-Thin.otf"; path = "../assets/fonts/Gotham-Thin.otf"; sourceTree = "<group>"; };
+		E41DBEF1E94A4762B6B6B7A8 /* gotham-rounded-medium-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-medium-italic.otf"; path = "../assets/fonts/gotham-rounded-medium-italic.otf"; sourceTree = "<group>"; };
+		EED3ADF520084A67971774AD /* Pods-waterDisposal-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposal-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposal-tvOS/Pods-waterDisposal-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F7B5CD64A0FF4797BEE96400 /* gotham-rounded-light-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-rounded-light-italic.otf"; path = "../assets/fonts/gotham-rounded-light-italic.otf"; sourceTree = "<group>"; };
+		F858A76A76104D6C91A018CD /* GOTHAM-THIN.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-THIN.TTF"; path = "../assets/fonts/GOTHAM-THIN.TTF"; sourceTree = "<group>"; };
+		FA777616BBDB4CD8AB1B267C /* GOTHAM-LIGHTITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-LIGHTITALIC.TTF"; path = "../assets/fonts/GOTHAM-LIGHTITALIC.TTF"; sourceTree = "<group>"; };
+		FA9A9C425FA25E4441ED5CDA /* Pods-waterDisposalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-waterDisposalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-waterDisposalTests/Pods-waterDisposalTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB9DFD96F71F4A6299949F4B /* Gotham-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gotham-ExtraLight.otf"; path = "../assets/fonts/Gotham-ExtraLight.otf"; sourceTree = "<group>"; };
+		FD3B99D5ED6948F9967D3F5E /* GOTHAM-BOLDITALIC.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GOTHAM-BOLDITALIC.TTF"; path = "../assets/fonts/GOTHAM-BOLDITALIC.TTF"; sourceTree = "<group>"; };
+		FF43A1161AA34A2AB392CAEA /* gotham-extra-narrow-bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-bold.otf"; path = "../assets/fonts/gotham-extra-narrow-bold.otf"; sourceTree = "<group>"; };
+		FF8CA5281E55402C8E00F042 /* gotham-extra-narrow-light-italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "gotham-extra-narrow-light-italic.otf"; path = "../assets/fonts/gotham-extra-narrow-light-italic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				1FC564DDC042A271BB89EDD2 /* libPods-waterDisposalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
+				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				ED2E678B0E01492691BC33A4 /* libReactNativeFingerprintScanner.a in Frameworks */,
+				3B9323BBF1B74D6E871FDBD1 /* libRNImagePicker.a in Frameworks */,
+				48FA6C49B2EC4986A9692917 /* libRNFIRMessaging.a in Frameworks */,
+				840B15E10CB326F51A459AA2 /* libPods-waterDisposal.a in Frameworks */,
+				D4FA4EBDBE87462F9FEAB8DD /* libRCTCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
+				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
+				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
+				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
+				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
+				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
+				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				C7C7A130DC9BDA9E69A4759E /* libPods-waterDisposal-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68522EEF8A5FDE5BDED060B /* libPods-waterDisposal-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302B61ABCB90400DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302BC1ABCB91800DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
+				3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302D41ABCB9D200DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
+				3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302E01ABCB9EE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E356EF1AD99517003FC87E /* waterDisposalTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* waterDisposalTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = waterDisposalTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0463FD5EA79324F2A5999D9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E9054D7439179683B2B0F39 /* Pods-waterDisposal.debug.xcconfig */,
+				AEDE3FD78C0EB144C7E886B6 /* Pods-waterDisposal.release.xcconfig */,
+				3060FCC65BF5224499A1F561 /* Pods-waterDisposal-tvOS.debug.xcconfig */,
+				EED3ADF520084A67971774AD /* Pods-waterDisposal-tvOS.release.xcconfig */,
+				5D6914BB8289202B4414D09D /* Pods-waterDisposal-tvOSTests.debug.xcconfig */,
+				21E9373970BEA9D2D001993E /* Pods-waterDisposal-tvOSTests.release.xcconfig */,
+				3DBC0DDD80FD6F59087D040F /* Pods-waterDisposalTests.debug.xcconfig */,
+				FA9A9C425FA25E4441ED5CDA /* Pods-waterDisposalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		139105B71AF99BAD00B5F7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
+				3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139FDEE71B06529A00C62182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
+				3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* waterDisposal */ = {
+			isa = PBXGroup;
+			children = (
+				B64314111FD048700069AB75 /* GoogleService-Info.plist */,
+				B6AD29261FCEFD4200CF4CEA /* waterDisposal.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = waterDisposal;
+			sourceTree = "<group>";
+		};
+		146834001AC3E56700842450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146834041AC3E56700842450 /* libReact.a */,
+				3DAD3EA31DF850E9000B6D8A /* libReact.a */,
+				3DAD3EA51DF850E9000B6D8A /* libyoga.a */,
+				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
+				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
+				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
+				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
+				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
+				B6AD28B21FCEE53700CF4CEA /* libthird-party.a */,
+				B6AD28B41FCEE53700CF4CEA /* libthird-party.a */,
+				B6AD28B61FCEE53700CF4CEA /* libdouble-conversion.a */,
+				B6AD28B81FCEE53700CF4CEA /* libdouble-conversion.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47615D5667B84D13A5FADA68 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FE87BEAACBD466EA84620A1 /* GOTHAM-BLACK.TTF */,
+				8E2AA76B1F28421C8760C9F9 /* GOTHAM-BLACKITALIC.TTF */,
+				A9DF055848044EF7BF3D23F9 /* GOTHAM-BOLD.TTF */,
+				FD3B99D5ED6948F9967D3F5E /* GOTHAM-BOLDITALIC.TTF */,
+				84EF16B336334372B94F9CF4 /* GOTHAM-LIGHT.TTF */,
+				FA777616BBDB4CD8AB1B267C /* GOTHAM-LIGHTITALIC.TTF */,
+				ABFF663E849D4F26A05747BF /* GOTHAM-MEDIUM.TTF */,
+				0CC54FDF98CA40B68BD74610 /* GOTHAM-MEDIUMITALIC.TTF */,
+				F858A76A76104D6C91A018CD /* GOTHAM-THIN.TTF */,
+				A5C9FAB4F69E4588A3705C77 /* GOTHAM-THINITALIC.TTF */,
+				C7BD4F03D5A245D5BF00C7BF /* GOTHAM-ULTRA.TTF */,
+				9E68552A1A4F4FB5BEB93BD5 /* GOTHAM-ULTRAITALIC.TTF */,
+				53F4E36E89CF48ADA9A9E00F /* GOTHAM-XLIGHT.TTF */,
+				D40B70A22F8D42AE89C0D2D7 /* GOTHAM-XLIGHTITALIC.TTF */,
+				09335AC54D8F4F8C970C9D2D /* Gotham Book Italic.otf */,
+				7DA03EDAF59B41B6BF99AF43 /* Gotham-BoldItalic.otf */,
+				0EC32E1DB01E4CC88C42FB1B /* Gotham-Book.otf */,
+				D20DF9386CAD4DC18FE09A8F /* Gotham-BookItalic.otf */,
+				FB9DFD96F71F4A6299949F4B /* Gotham-ExtraLight.otf */,
+				958B7F6CF34447E9BE0D7E9B /* Gotham-ExtraLightItalic.otf */,
+				97D2526A3B3945E2B37BB5AA /* Gotham-Light.otf */,
+				0E834620747D493792BDDD4E /* Gotham-LightItalic.otf */,
+				411C81C71DAE4027BD67E757 /* Gotham-Medium.otf */,
+				4804D04AC4814E9D9A07FF3F /* Gotham-MediumItalic.otf */,
+				E147F4A53CB04E33BE298B77 /* Gotham-Thin.otf */,
+				A2119C12A5A2481889F40E1E /* Gotham-ThinItalic.otf */,
+				8EB9D6239E2E40269CDCB7AE /* Gotham-Ultra.otf */,
+				D91FF2619AE54C43A5596D56 /* Gotham-UltraItalic.otf */,
+				78EC722C493344A7A341F7CC /* GothamNarrow-Black.otf */,
+				CC1948ECEF2F474A97F38AE5 /* GothamNarrow-BlackItalic.otf */,
+				6D63F975A5154C239C472886 /* GothamNarrow-Book.otf */,
+				9263109484194B4C8AE1178A /* GothamNarrow-BookItalic.otf */,
+				277293E640434163ABFC71D7 /* GothamNarrow-Light.otf */,
+				BD5E32DB8AC445F7ABADA413 /* GothamNarrow-LightItalic.otf */,
+				54915C8243BB43A396834EB2 /* GothamNarrow-Medium.otf */,
+				D410177218B0452DBBF80817 /* GothamNarrow-MediumItalic.otf */,
+				D597CC8D238F4595BF94D013 /* GothamNarrow-Thin.otf */,
+				A0C7057D1C3948AA886026FF /* GothamNarrow-ThinItalic.otf */,
+				8C60FBAAF59C486C9141EB09 /* GothamNarrow-Ultra.otf */,
+				D4EABA09F4CF427682ECDE9D /* GothamNarrow-UltraItalic.otf */,
+				9E96077DDE794447839FB0E0 /* GothamNarrow-XLight.otf */,
+				48D70AB2090F4562941096DE /* GothamNarrow-XLightItalic.otf */,
+				DE9472B5BA84499ABBFA913F /* gotham-extra-narrow-bold-italic.otf */,
+				FF43A1161AA34A2AB392CAEA /* gotham-extra-narrow-bold.otf */,
+				99BA944E7A904BCA992619D8 /* gotham-extra-narrow-book-italic.otf */,
+				81A328232F3F4568B45BD95E /* gotham-extra-narrow-book.otf */,
+				FF8CA5281E55402C8E00F042 /* gotham-extra-narrow-light-italic.otf */,
+				4D666481C66641448E193BAD /* gotham-extra-narrow-light.otf */,
+				AEC8440D329D44CF9862C2C4 /* gotham-extra-narrow-medium-italic.otf */,
+				3C39F7F727174FC7B78B507B /* gotham-extra-narrow-medium.otf */,
+				67A8638BFC97444EA5BFC5F8 /* gotham-rounded-bold-italic.otf */,
+				9FD0C28571C54767A4323117 /* gotham-rounded-bold.otf */,
+				0A243EC3A28F415A84A55BA5 /* gotham-rounded-book-italic.otf */,
+				225EBBEB248A449282AEEB0C /* gotham-rounded-book.otf */,
+				F7B5CD64A0FF4797BEE96400 /* gotham-rounded-light-italic.otf */,
+				91E31A25525E459481D74108 /* gotham-rounded-light.otf */,
+				E41DBEF1E94A4762B6B6B7A8 /* gotham-rounded-medium-italic.otf */,
+				BC3DBC3507304B26A1C84197 /* gotham-rounded-medium.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C398B11ACF4ADC00677621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
+				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
+				146833FF1AC3E56700842450 /* React.xcodeproj */,
+				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */,
+				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
+				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
+				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
+				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
+				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
+				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
+				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
+				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				BFF769CC82984E04B166DC7B /* ReactNativeFingerprintScanner.xcodeproj */,
+				AB7F7C8C963141D79EB0D047 /* RNImagePicker.xcodeproj */,
+				64B17CC592744E9AB13B4ACA /* RNFIRMessaging.xcodeproj */,
+				90BB6EB4ABFE4F2CACCC500A /* RCTCamera.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		832341B11AAA6A8300B99B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832341B51AAA6A8300B99B32 /* libRCTText.a */,
+				3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* waterDisposal */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* waterDisposalTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				0463FD5EA79324F2A5999D9E /* Pods */,
+				9797B64B5407EE11885CA902 /* Frameworks */,
+				B60096F91FD1109200213DB2 /* Recovered References */,
+				47615D5667B84D13A5FADA68 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* waterDisposal.app */,
+				00E356EE1AD99517003FC87E /* waterDisposalTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* waterDisposal-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* waterDisposal-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9797B64B5407EE11885CA902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7567DABDA7615C3ED145A625 /* libPods-waterDisposal.a */,
+				05ECDF7A0955C89866519224 /* libPods-waterDisposal-tvOS.a */,
+				245D4D4346BB27DF202A7515 /* libPods-waterDisposal-tvOSTests.a */,
+				35CA80F49FC302CB75375110 /* libPods-waterDisposalTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADBDB9201DFEBF0600ED6528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
+				B6AD286C1FCD2CE300CF4CEA /* libRCTBlob-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60096F91FD1109200213DB2 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7DD679BA10DC4CF7B9443293 /* libReactNativeFingerprintScanner.a */,
+				DC9AF7BD08A74BC1BF245956 /* libRNImagePicker.a */,
+				3B17BA61B94F4D349D1208F9 /* libRNFIRMessaging.a */,
+				3094C53E889D49E392EB9721 /* libRCTCamera.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B600975D1FD123FE00213DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60097611FD123FE00213DB2 /* libRCTCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD28621FCD2CE200CF4CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD28801FCD2CE300CF4CEA /* libReactNativeFingerprintScanner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD288F1FCEE53700CF4CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD28BC1FCEE53700CF4CEA /* libRNImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD28CC1FCEED7600CF4CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD28F11FCEED7600CF4CEA /* libRNFIRMessaging.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* waterDisposalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "waterDisposalTests" */;
+			buildPhases = (
+				5B75CDA790EEFB479395F8F0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				0770A779AC3A37665BD364E2 /* [CP] Embed Pods Frameworks */,
+				3AB9DAACDBE94000B86B91A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = waterDisposalTests;
+			productName = waterDisposalTests;
+			productReference = 00E356EE1AD99517003FC87E /* waterDisposalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* waterDisposal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "waterDisposal" */;
+			buildPhases = (
+				79A34F6776C2327C37833153 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				37C6B384EFA7482E0D130D29 /* [CP] Embed Pods Frameworks */,
+				BCC018698DC598563CDF059D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterDisposal;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* waterDisposal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* waterDisposal-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "waterDisposal-tvOS" */;
+			buildPhases = (
+				6083AEC7599BFDE0D634B019 /* [CP] Check Pods Manifest.lock */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+				2963011AF6C98F1434AF6FB9 /* [CP] Embed Pods Frameworks */,
+				5A3619EB34BF3B8E22C546B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "waterDisposal-tvOS";
+			productName = "waterDisposal-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* waterDisposal-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* waterDisposal-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "waterDisposal-tvOSTests" */;
+			buildPhases = (
+				C1AB9EBF2729262202AE8376 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+				DFDD27C5012CA9B05206B05B /* [CP] Embed Pods Frameworks */,
+				7E74B7137155AD70130E9A13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "waterDisposal-tvOSTests";
+			productName = "waterDisposal-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* waterDisposal-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = JTPYA3C428;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = JTPYA3C428;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "waterDisposal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
+					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = 5E91572E1DD0AC6500FF2AA8 /* Products */;
+					ProjectRef = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
+					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = B600975D1FD123FE00213DB2 /* Products */;
+					ProjectRef = 90BB6EB4ABFE4F2CACCC500A /* RCTCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
+					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
+					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
+					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
+					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
+					ProjectRef = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = 832341B11AAA6A8300B99B32 /* Products */;
+					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
+					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
+					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 146834001AC3E56700842450 /* Products */;
+					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = B6AD28621FCD2CE200CF4CEA /* Products */;
+					ProjectRef = BFF769CC82984E04B166DC7B /* ReactNativeFingerprintScanner.xcodeproj */;
+				},
+				{
+					ProductGroup = B6AD28CC1FCEED7600CF4CEA /* Products */;
+					ProjectRef = 64B17CC592744E9AB13B4ACA /* RNFIRMessaging.xcodeproj */;
+				},
+				{
+					ProductGroup = B6AD288F1FCEE53700CF4CEA /* Products */;
+					ProjectRef = AB7F7C8C963141D79EB0D047 /* RNImagePicker.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* waterDisposal */,
+				00E356ED1AD99517003FC87E /* waterDisposalTests */,
+				2D02E47A1E0B4A5D006451C7 /* waterDisposal-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* waterDisposal-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = 00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = 00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302C01ABCB91800DB3ED1 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = 00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = 139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139FDEF41B06529B00C62182 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 139FDEF31B06529B00C62182 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		146834041AC3E56700842450 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTImage-tvOS.a";
+			remoteRef = 3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTLinking-tvOS.a";
+			remoteRef = 3DAD3E871DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = 3DAD3E8B1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTSettings-tvOS.a";
+			remoteRef = 3DAD3E8F1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = 3DAD3E931DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = 3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA31DF850E9000B6D8A /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA51DF850E9000B6D8A /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 3DAD3EA41DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA71DF850E9000B6D8A /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 3DAD3EA61DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 3DAD3EA81DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTBlob.a;
+			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B60097611FD123FE00213DB2 /* libRCTCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCamera.a;
+			remoteRef = B60097601FD123FE00213DB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD286C1FCD2CE300CF4CEA /* libRCTBlob-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTBlob-tvOS.a";
+			remoteRef = B6AD286B1FCD2CE300CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28801FCD2CE300CF4CEA /* libReactNativeFingerprintScanner.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeFingerprintScanner.a;
+			remoteRef = B6AD287F1FCD2CE300CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28B21FCEE53700CF4CEA /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B6AD28B11FCEE53700CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28B41FCEE53700CF4CEA /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = B6AD28B31FCEE53700CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28B61FCEE53700CF4CEA /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B6AD28B51FCEE53700CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28B81FCEE53700CF4CEA /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = B6AD28B71FCEE53700CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28BC1FCEE53700CF4CEA /* libRNImagePicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImagePicker.a;
+			remoteRef = B6AD28BB1FCEE53700CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6AD28F11FCEED7600CF4CEA /* libRNFIRMessaging.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFIRMessaging.a;
+			remoteRef = B6AD28F01FCEED7600CF4CEA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B64314121FD048700069AB75 /* GoogleService-Info.plist in Resources */,
+				D083FBC7EB79423E9CDCE18C /* GOTHAM-BLACK.TTF in Resources */,
+				8929D38326B6413E9F78D980 /* GOTHAM-BLACKITALIC.TTF in Resources */,
+				A4E2F9D88CE94EBEADD8066F /* GOTHAM-BOLD.TTF in Resources */,
+				E89B10D61AC44C98A90F487B /* GOTHAM-BOLDITALIC.TTF in Resources */,
+				A0308972169740AFB9B5E759 /* GOTHAM-LIGHT.TTF in Resources */,
+				0524A016EA8141038F240359 /* GOTHAM-LIGHTITALIC.TTF in Resources */,
+				C3EB19B83BD442BD8F9122DB /* GOTHAM-MEDIUM.TTF in Resources */,
+				96826CC433924DE998D564E9 /* GOTHAM-MEDIUMITALIC.TTF in Resources */,
+				FEC16AEB33BE4737B4AA1CA2 /* GOTHAM-THIN.TTF in Resources */,
+				3C0F975F5F9A4F0AAD84F15C /* GOTHAM-THINITALIC.TTF in Resources */,
+				59F05087EBB5480E8D895145 /* GOTHAM-ULTRA.TTF in Resources */,
+				080B9BA658C943E99DC6B927 /* GOTHAM-ULTRAITALIC.TTF in Resources */,
+				8C2772C5425E4805AE9EDB13 /* GOTHAM-XLIGHT.TTF in Resources */,
+				3CCE2AB3E46943EA8609282C /* GOTHAM-XLIGHTITALIC.TTF in Resources */,
+				92A93D759AA44F5481D16734 /* Gotham Book Italic.otf in Resources */,
+				A13AF2D135F848B8A9AD0090 /* Gotham-BoldItalic.otf in Resources */,
+				161C8E385D9744D6B1FE24CB /* Gotham-Book.otf in Resources */,
+				1058C1A082CE4C52833A8C1A /* Gotham-BookItalic.otf in Resources */,
+				A23258975BBF4780A8EF1E40 /* Gotham-ExtraLight.otf in Resources */,
+				AB16682815BF48B99631C0A7 /* Gotham-ExtraLightItalic.otf in Resources */,
+				12BE359A17314450A8D06137 /* Gotham-Light.otf in Resources */,
+				BDDB1039F8A14A0F82F9A14E /* Gotham-LightItalic.otf in Resources */,
+				9994F2DA3E194A778C3EE841 /* Gotham-Medium.otf in Resources */,
+				73E7C1B018AD454E91E60C91 /* Gotham-MediumItalic.otf in Resources */,
+				34930498446443BF9F291296 /* Gotham-Thin.otf in Resources */,
+				BAC18C8D6A7542A2947B21C7 /* Gotham-ThinItalic.otf in Resources */,
+				1587120609A1414CA35E5ACA /* Gotham-Ultra.otf in Resources */,
+				83CEF5C028F048BBB08529B4 /* Gotham-UltraItalic.otf in Resources */,
+				8979E9FAA7BD488A96F8B5C7 /* GothamNarrow-Black.otf in Resources */,
+				2C86F792819141B39B4B6405 /* GothamNarrow-BlackItalic.otf in Resources */,
+				387B1BC572EB448C95BDD52F /* GothamNarrow-Book.otf in Resources */,
+				DBA287CBB75B4E6BB96976AC /* GothamNarrow-BookItalic.otf in Resources */,
+				28CFFA8E69D444A789AEF95F /* GothamNarrow-Light.otf in Resources */,
+				3980449F30C9477881F325D3 /* GothamNarrow-LightItalic.otf in Resources */,
+				C2F3604F4B644658A9CA6FF2 /* GothamNarrow-Medium.otf in Resources */,
+				775483053C1E4A88BB21749D /* GothamNarrow-MediumItalic.otf in Resources */,
+				C119D7E460E6489A980C78A7 /* GothamNarrow-Thin.otf in Resources */,
+				F6E3278CFD4A4CFD9C4AF18F /* GothamNarrow-ThinItalic.otf in Resources */,
+				1D5D25906B574E4CAC43EC65 /* GothamNarrow-Ultra.otf in Resources */,
+				27F75328BD534777A421C919 /* GothamNarrow-UltraItalic.otf in Resources */,
+				A7623A7998B94E84B9F0F466 /* GothamNarrow-XLight.otf in Resources */,
+				EE05EFC099DF4F09BBED1FAE /* GothamNarrow-XLightItalic.otf in Resources */,
+				9D653023D7A54878AD287CEA /* gotham-extra-narrow-bold-italic.otf in Resources */,
+				4094549D74094CEF86092BBD /* gotham-extra-narrow-bold.otf in Resources */,
+				D8021F7EA14F442C8552B295 /* gotham-extra-narrow-book-italic.otf in Resources */,
+				AF79D852B86D40DFAA5EA19B /* gotham-extra-narrow-book.otf in Resources */,
+				9EA23421D9E64274860754D0 /* gotham-extra-narrow-light-italic.otf in Resources */,
+				95BBB30F721B4FE0A146B06C /* gotham-extra-narrow-light.otf in Resources */,
+				EF594B8303AB4B1B8572FEB6 /* gotham-extra-narrow-medium-italic.otf in Resources */,
+				E1B7B249EA2844FEBD85A23E /* gotham-extra-narrow-medium.otf in Resources */,
+				318E030011AF4176BCDEE1EB /* gotham-rounded-bold-italic.otf in Resources */,
+				67330FE764A24ECFAFE106DB /* gotham-rounded-bold.otf in Resources */,
+				4DC27D6F586146B686ED02AE /* gotham-rounded-book-italic.otf in Resources */,
+				E366B8219E1F4B9AAF6C4966 /* gotham-rounded-book.otf in Resources */,
+				B32F2AA89EA04DE7941B25E4 /* gotham-rounded-light-italic.otf in Resources */,
+				91E6FA3ABE75441AA3CCF43B /* gotham-rounded-light.otf in Resources */,
+				F5EA79E6C5F44A71B6A4C770 /* gotham-rounded-medium-italic.otf in Resources */,
+				9CDF5645ED54443D8F93AAB3 /* gotham-rounded-medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		0770A779AC3A37665BD364E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposalTests/Pods-waterDisposalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2963011AF6C98F1434AF6FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal-tvOS/Pods-waterDisposal-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		37C6B384EFA7482E0D130D29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal/Pods-waterDisposal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB9DAACDBE94000B86B91A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposalTests/Pods-waterDisposalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3619EB34BF3B8E22C546B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal-tvOS/Pods-waterDisposal-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B75CDA790EEFB479395F8F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterDisposalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6083AEC7599BFDE0D634B019 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterDisposal-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A34F6776C2327C37833153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterDisposal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E74B7137155AD70130E9A13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal-tvOSTests/Pods-waterDisposal-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC018698DC598563CDF059D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal/Pods-waterDisposal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1AB9EBF2729262202AE8376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-waterDisposal-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFDD27C5012CA9B05206B05B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-waterDisposal-tvOSTests/Pods-waterDisposal-tvOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* waterDisposalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* waterDisposalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* waterDisposal */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* waterDisposal-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = waterDisposal;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBC0DDD80FD6F59087D040F /* Pods-waterDisposalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JTPYA3C428;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = waterDisposalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterDisposal.app/waterDisposal";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9A9C425FA25E4441ED5CDA /* Pods-waterDisposalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = JTPYA3C428;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = waterDisposalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterDisposal.app/waterDisposal";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9054D7439179683B2B0F39 /* Pods-waterDisposal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = waterDisposal/waterDisposal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Chiu (WYY5AVED4A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = JTPYA3C428;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = waterDisposal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.waterDisposal;
+				PRODUCT_NAME = waterDisposal;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDE3FD78C0EB144C7E886B6 /* Pods-waterDisposal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = waterDisposal/waterDisposal.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mark Chiu (WYY5AVED4A)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTPYA3C428;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = waterDisposal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.waterDisposal;
+				PRODUCT_NAME = waterDisposal;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3060FCC65BF5224499A1F561 /* Pods-waterDisposal-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = "waterDisposal-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.waterDisposal-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED3ADF520084A67971774AD /* Pods-waterDisposal-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fingerprint-scanner/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+				);
+				INFOPLIST_FILE = "waterDisposal-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.waterDisposal-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6914BB8289202B4414D09D /* Pods-waterDisposal-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "waterDisposal-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.waterDisposal-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterDisposal-tvOS.app/waterDisposal-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E9373970BEA9D2D001993E /* Pods-waterDisposal-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "waterDisposal-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.waterDisposal-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterDisposal-tvOS.app/waterDisposal-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "waterDisposalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "waterDisposal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "waterDisposal-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "waterDisposal-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "waterDisposal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
